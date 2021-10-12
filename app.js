@@ -12,6 +12,7 @@ require('./app_api/models/db');
 
 require('./app_api/config/passport');
 
+//changed location directory //
 const indexRouter = require('./app_server/routes/index');
 const usersRouter = require('./app_server/routes/users');
 const travelRouter = require('./app_server/routes/travel');
@@ -19,6 +20,7 @@ const apiRouter = require('./app_api/routes/index');
 
 const app = express();
 
+//changed location directory //
 // view engine setup
 app.set('views', path.join(__dirname,'app_server', 'views'));
 
