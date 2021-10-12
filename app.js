@@ -5,6 +5,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+// code for the handlebars //
 const hbs = require('hbs');
 const passport = require('passport');
 
