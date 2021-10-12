@@ -17,6 +17,7 @@ require('./app_api/config/passport');
 const indexRouter = require('./app_server/routes/index');
 const usersRouter = require('./app_server/routes/users');
 const travelRouter = require('./app_server/routes/travel');
+const roomsRouter = require('./app_server/routes/rooms');
 const apiRouter = require('./app_api/routes/index');
 
 const app = express();
@@ -49,6 +50,7 @@ app.use('/api', (req, res, next) => {
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/travel', travelRouter);
+app.use('/rooms', roomsRouter);
 app.use('/api', apiRouter);
 
 app.use(function(err, req, res, next){
