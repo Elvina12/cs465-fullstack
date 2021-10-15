@@ -1,0 +1,24 @@
+[ 
+    {
+								
+        "name": "First Class Room",
+        "image":"suite1.jpg",
+		"description":"The Sample Room is a one-room suite with queen-size bed and comfortable seating area. It is located downstairs with an outside entrance and is wheelchair assessable.",
+        "rate" : "220/day",
+        "rating": "4.7"
+    },
+    {				
+        "name": "Deluxe Room",
+        "image": "deluxe1.jpg",
+        "description":"Duluxe Room is a 2-bedroom suite that offers a master bedroom with a queen-size bed. The smaller bedroom offers a full-size bed.",
+        "rate" : "150/day",
+        "rating": "4.5"
+    },
+    {
+        "name": "Suite Room",
+        "image": "suite.jpg",
+        "description": "Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.",
+        "rate" : "180/day",
+        "rating": "4.9"
+    }
+]
